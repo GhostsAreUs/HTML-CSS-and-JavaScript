@@ -1,0 +1,11 @@
+body {background: mistyRose}
+/*body is the entire background*/
+#seconds {background: coral;}
+#minutes {background: orange;}
+#button-start {background: green;}
+#button-stop {background: teal;}
+#button-reset {background: purple;}
+/*hashtag is for ids*/
+h1 {background: pink;}
+h2 {background: beige}
+/*no hashtag for headings*/

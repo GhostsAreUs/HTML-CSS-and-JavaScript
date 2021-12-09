@@ -1,0 +1,56 @@
+/* stylesheet.css */
+
+.bigger-image {
+	width: 700px;
+}
+.smaller-image {
+	display: block;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	
+}
+.image-border {
+	border-color: DarkBlue;
+	border-width: 5px;
+	border-style: solid;
+	border-radius: 10px;
+}
+.background {
+	border-radius: 10px;
+	background-color: WhiteSmoke;
+	border-color: WhiteSmoke;
+	border-width: 5px;
+	border-style: solid;
+}
+.main-style {
+	background-color: Gainsboro;
+	width: 700px;
+	border-color: Gainsboro;
+	border-width: 15px;
+	border-style: solid;
+	border-radius: 10px;
+}
+.center-page {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+	
+h1 {
+	font-family: sans-serif;
+	font-size: 24px;
+	color: DarkBlue;
+}
+h2 {
+	font-family: sans-serif;
+	font-size: 20px;
+	color: DarkBlue;
+}
+p {
+	font-family: sans-serif;
+	font-size: 16px;
+	color: DimGrey;
+}

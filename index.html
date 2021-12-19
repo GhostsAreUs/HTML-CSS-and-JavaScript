@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ghost animation</title>
+		<style>
+			body {
+				background-color: #d9d9d9;
+				
+			}
+			
+			.ghost {
+				position: relative;
+				height: 100px;
+				width: 100px;
+				display: block;
+				background-color: white;
+				margin: auto;
+				margin-top: 15%;
+				border-radius: 50px 50px 0 0;
+				animation-name: hovering;
+				animation-duration: 3s;
+				animation-iteration-count: infinite;
+				animation-timing-function: ease-out;
+			}
+			
+			@keyframes hovering {
+			0% {
+				bottom: 0px;
+				}
+			50% {
+				bottom: 50px;
+				}
+			100% {
+				bottom: 0px
+				}
+			}
+			
+			.eye-one {
+				background-color: black;
+				position: absolute;
+				height: 15%;
+				width: 8%;
+				top: 32%;
+				left: 30%;
+				border-radius:50%;
+			}
+			
+			.eye-two {
+				background-color: black;
+				position: absolute;
+				height: 15%;
+				width: 8%;
+				top: 32%;
+				left: 63%;
+				border-radius:50%;
+			}
+			
+			.glasses-left {
+				background-color: none;
+				position: absolute;
+				height: 35%;
+				width: 35%;
+				border: 2px solid black;
+				border-radius: 50%;
+				top: 20%;
+				left: 7%;
+			}
+			
+			.glasses-middle {
+				background-color: black;
+				position: absolute;
+				height: 2px;
+				width: 10px;
+				top: 40%;
+				left: 45%;
+			}
+			
+			.glasses-right {
+				background-color: none;
+				position: absolute;
+				height: 35%;
+				width: 35%;
+				border: 2px solid black;
+				border-radius: 50%;
+				top: 20%;
+				left: 55%;
+			}
+			
+			.mouth-show {
+				position: absolute;
+				width: 0;
+				height: 0;
+				border-left: 10px solid transparent;
+				border-right: 10px solid transparent;
+				border-bottom: 10px solid black;
+				top: 55%;
+				left: 40%;
+			}
+			
+			.mouth-hidden {
+				position: absolute;
+				width: 0;
+				height: 0;
+				border-left: 10px solid transparent;
+				border-right: 10px solid transparent;
+				border-bottom: 10px solid white;
+				top: 58%;
+				left: 40%;
+			}
+			
+			.wave-one {
+				background-color: #d9d9d9;
+				position: absolute;
+				height: 20px;
+				width: 20px;
+				border-radius: 50%;
+				top: 90%;
+			}
+			
+			.wave-two {
+				background-color: #d9d9d9;
+				position: absolute;
+				height: 20px;
+				width: 20px;
+				border-radius: 50%;
+				top: 90%;
+				left: 20px;
+			}
+			
+			.wave-three {
+				background-color: #d9d9d9;
+				position: absolute;
+				height: 20px;
+				width: 20px;
+				border-radius: 50%;
+				top: 90%;
+				left: 40px;
+			}
+			
+			.wave-four {
+				background-color: #d9d9d9;
+				position: absolute;
+				height: 20px;
+				width: 20px;
+				border-radius: 50%;
+				top: 90%;
+				left: 60px;
+			}
+			
+			.wave-five {
+				background-color: #d9d9d9;
+				position: absolute;
+				height: 20px;
+				width: 20px;
+				border-radius: 50%;
+				top: 90%;
+				left: 80px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="ghost">
+			<div class="eye-one"></div>
+			<div class="eye-two"></div>
+			<div class="glasses-left"></div>
+			<div class="glasses-middle"></div>
+			<div class="glasses-right"></div>
+			<div class="mouth-show"></div>
+			<div class="mouth-hidden"></div>
+			<div class="wave-one"></div>
+			<div class="wave-two"></div>
+			<div class="wave-three"></div>
+			<div class="wave-four"></div>
+			<div class="wave-five"></div>
+		</div>
+		
+	</body>
+</html>
